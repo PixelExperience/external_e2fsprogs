@@ -38,7 +38,7 @@ cc_library {
 
     cflags: [
         "-Wno-error=attributes",
-        "-Wno-error=pointer-sign",
+        "-Wno-pointer-sign",
         "-Wno-unused-parameter",
         "-fno-strict-aliasing",
     ],
