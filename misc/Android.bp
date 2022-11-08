@@ -239,7 +239,6 @@ cc_binary {
 
 cc_binary {
     name: "blkid",
-    host_supported: true,
     defaults: ["e2fsprogs-defaults"],
 
     srcs: ["blkid.c"],
